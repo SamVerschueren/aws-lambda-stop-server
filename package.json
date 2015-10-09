@@ -18,6 +18,9 @@
     "server",
     "cronjob"
   ],
+  "files": [
+    "index.js"
+  ],
   "dependencies": {
     "pify": "^2.2.0",
     "pinkie-promise": "^1.0.0",
