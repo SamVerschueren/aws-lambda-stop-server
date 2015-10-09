@@ -4,7 +4,8 @@
 
 ## Usage
 
-Download the zip file and deploy it as a lambda function. The name of the lambda function can be something like `OfficeHoursStop`.
+Download the [zip](https://github.com/SamVerschueren/aws-lambda-stop-server/releases) file and deploy it as a lambda function. The name of the
+lambda function can be something like `OfficeHoursStop`.
 
 After you deployed the lambda function, you navigate to `Event sources` and choose for the `Scheduled Event`. Provide a name for your scheduled event,
 for instance `OfficeHoursStopSchedular`. The following expression will run the lambda function every weekday at 17:15 PM.
