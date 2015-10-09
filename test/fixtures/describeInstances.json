@@ -1,0 +1,79 @@
+{
+	"noReservations": {
+		"Reservations": []
+	},
+	"oneInstance": {
+		"Reservations": [
+			{
+				"ReservationId": "r-abc123",
+				"Instances": [
+					{
+						"InstanceId": "i-abc123",
+						"State": {
+							"Code": 16,
+							"Name": "running"
+						}
+					}
+				]
+			}
+		]
+	},
+	"oneStoppedInstance": {
+		"Reservations": [
+			{
+				"ReservationId": "r-abc123",
+				"Instances": [
+					{
+						"InstanceId": "i-abc123",
+						"State": {
+							"Code": 80,
+							"Name": "stopped"
+						}
+					},
+					{
+						"InstanceId": "i-def456",
+						"State": {
+							"Code": 16,
+							"Name": "running"
+						}
+					}
+				]
+			}
+		]
+	},
+	"multipleInstances": {
+		"Reservations": [
+			{
+				"ReservationId": "r-abc123",
+				"Instances": [
+					{
+						"InstanceId": "i-abc123",
+						"State": {
+							"Code": 16,
+							"Name": "running"
+						}
+					},
+					{
+						"InstanceId": "i-def456",
+						"State": {
+							"Code": 80,
+							"Name": "stopped"
+						}
+					}
+				]
+			},
+			{
+				"ReservationId": "r-def456",
+				"Instances": [
+					{
+						"InstanceId": "i-ghi789",
+						"State": {
+							"Code": 16,
+							"Name": "running"
+						}
+					}
+				]
+			}
+		]
+	}
+}

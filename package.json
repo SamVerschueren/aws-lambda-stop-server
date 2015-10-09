@@ -8,7 +8,7 @@
     "email": "sam.verschueren@gmail.com"
   },
   "scripts": {
-    "test": "xo",
+    "test": "xo && ava",
     "build": "gulp build"
   },
   "keywords": [
@@ -20,7 +20,8 @@
   ],
   "dependencies": {
     "pify": "^2.2.0",
-    "pinkie-promise": "^1.0.0"
+    "pinkie-promise": "^1.0.0",
+    "sinon": "^1.17.1"
   },
   "devDependencies": {
     "ava": "*",
@@ -30,5 +31,10 @@
     "gulp-install": "^0.6.0",
     "gulp-zip": "^3.0.2",
     "xo": "*"
+  },
+  "xo": {
+    "ignores": [
+      "test/*.js"
+    ]
   }
 }
