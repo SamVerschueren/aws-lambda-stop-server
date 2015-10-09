@@ -1,0 +1,34 @@
+{
+  "name": "lambda-stop-server",
+  "version": "0.0.1",
+  "description": "AWS Lambda function that stops servers.",
+  "license": "MIT",
+  "author": {
+    "name": "Sam Verschueren",
+    "email": "sam.verschueren@gmail.com"
+  },
+  "scripts": {
+    "test": "xo",
+    "build": "gulp build"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "stop",
+    "server",
+    "cronjob"
+  ],
+  "dependencies": {
+    "pify": "^2.2.0",
+    "pinkie-promise": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "aws-lambda-pify": "^0.1.0",
+    "aws-sdk": "^2.2.8",
+    "gulp": "^3.9.0",
+    "gulp-install": "^0.6.0",
+    "gulp-zip": "^3.0.2",
+    "xo": "*"
+  }
+}
