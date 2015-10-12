@@ -23,16 +23,17 @@
   ],
   "dependencies": {
     "pify": "^2.2.0",
-    "pinkie-promise": "^1.0.0",
-    "sinon": "^1.17.1"
+    "pinkie-promise": "^1.0.0"
   },
   "devDependencies": {
     "ava": "*",
     "aws-lambda-pify": "^0.1.0",
     "aws-sdk": "^2.2.8",
+    "del": "^2.0.2",
     "gulp": "^3.9.0",
     "gulp-install": "^0.6.0",
     "gulp-zip": "^3.0.2",
+    "sinon": "^1.17.1",
     "xo": "*"
   },
   "xo": {
