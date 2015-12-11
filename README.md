@@ -2,6 +2,7 @@
 
 > AWS Lambda function that will stop servers that have a tag with the key `StopGroup` and the value the name of the lambda function.
 
+
 ## Usage
 
 Download the [zip](https://github.com/SamVerschueren/aws-lambda-stop-server/releases) file and deploy it as a lambda function.
@@ -14,6 +15,7 @@ cron(15 17 ? * MON-FRI *)
 ```
 
 This expression wil stop the servers every weekday, from monday to friday, at 17:15 PM.
+
 
 ### Tags
 
@@ -46,13 +48,11 @@ Make sure your lambda function is able to describe and stop instances.
 }
 ```
 
+
 ## Related
 
-- [aws-lambda-start-server](https://github.com/SamVerschueren/aws-lambda-start-server)
+- [aws-lambda-start-server](https://github.com/SamVerschueren/aws-lambda-start-server) - The same function but for starting the server.
 
-## Author
-
-- Sam Verschueren [<sam.verschueren@gmail.com>]
 
 ## License
 
